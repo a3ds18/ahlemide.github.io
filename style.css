@@ -1,0 +1,144 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 70px;
+    width: 140px;
+    margin-right: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 40px;
+    color: #376AAB;
+    margin-right: 30px;
+    font-family: ProximaNova-Regular, Arial, sans-serif;
+}
+.btn{
+    font-family: ProximaNova-Regular, Arial, sans-serif;
+    height: 40px;
+    width: 110px;
+    background-color: #376AAB;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-left: 150px;
+   
+}
+.imgLogin{
+    height: 45px;
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+a:hover{
+    color: #EE5B23;
+}
+
+.imageHome{
+    width: 100%;
+    height: 450px;
+}
+
+.parentHome{
+    position:relative;
+
+}
+.content{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+    font-family: ProximaNova-Regular, Arial, sans-serif;
+    text-align: center;
+}
+.savoirPlus{
+    height: 50px;
+    width: 110px;
+    background-color: #376AAB;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.savoirPlus:hover{
+    border:none;
+    background-color:white;
+    color: #EE5B23;
+}
+.previeus{
+    position:absolute;
+    top: 275px;
+    left: 9px;
+    font-size: 30px;
+    padding: 7px;
+    border: none;
+    color:#EE5B23;
+    border-radius: 20px;
+}
+.next{
+    position:absolute;
+    top: 275px;
+    right: 5px;
+    font-size: 30px;
+    padding: 7px;
+    border: none;
+    color:#EE5B23;
+    border-radius: 20px;
+}
+.parentabt{
+   width: 800px;
+   margin:auto;
+   display: flex;
+   justify-content: center; 
+   flex-direction: column;
+
+}
+.titleabt{
+    width: max-content;
+    margin: auto;
+    font-size: 35px;
+    margin-top: 50px;
+    border-bottom: 2px solid #376AAB;
+    font-family: ProximaNova-Regular, Arial, sans-serif;
+    color: #376AAB;
+}
+.parabt{
+    text-align: center;
+    margin-top: 32px;
+    font-size: 22px;
+    font-family: ProximaNova-Regular, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.imgabt{
+    margin-top: 60px;
+    margin: auto;
+}
+.btnabt{
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #376AAB;
+    color: white;
+}
+.btnabt:hover{
+    border:none;
+    background-color: #EE5B23;
+    color: white;
+}
